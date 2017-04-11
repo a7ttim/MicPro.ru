@@ -1,0 +1,69 @@
+2017-04-10 20:59:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/gii in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('gii', Array)
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/gii', Array)
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-10 20:59:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/gii'
+]
+
+$_COOKIE = [
+    '_ym_uid' => '147862134833451861'
+    '__utma' => '111872281.1433725038.1478621449.1478626170.1478950647.3'
+    '__utmz' => '111872281.1478621449.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity' => '5aa6de6ae1941e96d9752edc498524325190c7e7765042f2b5e1328ef7fa8fe9a:2:{i:0;s:9:\"_identity\";i:1;s:22:\"[\"Admin\",null,2592000]\";}'
+    '_csrf' => 'de848026c219448c834b58b66285ac6b3f01ffb66f5e0df2ecd6837b3f531d41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YKrlmgWKYZYbGmHbNUXBSLRkh8-gXKGJ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.54'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_ym_uid=147862134833451861; __utma=111872281.1433725038.1478621449.1478626170.1478950647.3; __utmz=111872281.1478621449.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity=5aa6de6ae1941e96d9752edc498524325190c7e7765042f2b5e1328ef7fa8fe9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A22%3A%22%5B%22Admin%22%2Cnull%2C2592000%5D%22%3B%7D; _csrf=de848026c219448c834b58b66285ac6b3f01ffb66f5e0df2ecd6837b3f531d41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YKrlmgWKYZYbGmHbNUXBSLRkh8-gXKGJ%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-7-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-7-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-7-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-PHP-7-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-PHP-7-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '14960'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fgii'
+    'REQUEST_URI' => '/MicPro.ru/basic/web/index.php?r=site%2Fgii'
+    'SCRIPT_NAME' => '/MicPro.ru/basic/web/index.php'
+    'PHP_SELF' => '/MicPro.ru/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491847143.456
+    'REQUEST_TIME' => 1491847143
+    'argv' => [
+        0 => 'r=site%2Fgii'
+    ]
+    'argc' => 1
+]
