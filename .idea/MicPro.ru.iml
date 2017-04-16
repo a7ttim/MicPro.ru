@@ -67,12 +67,18 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
+          <root url="phar://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64/PEAR/go-pear.phar/" />
           <root url="phar://$MODULE_DIR$/basic/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
           <root url="phar://$MODULE_DIR$/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64/pharcommand.phar/" />
         </CLASSES>
         <SOURCES>
+          <root url="phar://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64/PEAR/go-pear.phar/" />
           <root url="phar://$MODULE_DIR$/basic/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
           <root url="phar://$MODULE_DIR$/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64/pharcommand.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -138,6 +144,7 @@
           <root url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-faker" />
           <root url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-gii" />
           <root url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-swiftmailer" />
+          <root url="file://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/basic/vendor/behat/gherkin" />
@@ -199,6 +206,7 @@
           <root url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-faker" />
           <root url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-gii" />
           <root url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-swiftmailer" />
+          <root url="file://$MODULE_DIR$/../../../modules/php/PHP-5.5-x64" />
         </SOURCES>
       </library>
     </orderEntry>
