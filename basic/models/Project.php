@@ -29,7 +29,7 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "projects".
+ * This is the model class for table "project".
  *
  * @property integer $project_id
  * @property string $project_name
@@ -42,7 +42,7 @@ class Project extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'projects';
+        return 'project';
     }
 
     /**
