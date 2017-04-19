@@ -2,6 +2,9 @@
 
 namespace app\modules\pa;
 
+use Yii;
+use yii\filters\AccessControl;
+
 /**
  * pa module definition class
  */
@@ -10,6 +13,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
+
     public $controllerNamespace = 'app\modules\pa\controllers';
 
     /**
