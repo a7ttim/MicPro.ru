@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\project */
 
-$this->title = $model->project_id;
+$this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -29,8 +29,13 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'project_id',
-            'project_name',
-            'project_date',
+            'name',
+            'department_id',
+            'description',
+            'start_date',
+            'end_date',
+            'type',
+            'status',
         ],
     ]) ?>
 
