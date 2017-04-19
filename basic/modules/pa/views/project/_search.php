@@ -17,9 +17,19 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'project_id') ?>
 
-    <?= $form->field($model, 'project_name') ?>
+    <?= $form->field($model, 'name') ?>
 
-    <?= $form->field($model, 'project_date') ?>
+    <?= $form->field($model, 'department_id') ?>
+
+    <?= $form->field($model, 'description') ?>
+
+    <?= $form->field($model, 'start_date') ?>
+
+    <?php // echo $form->field($model, 'end_date') ?>
+
+    <?php // echo $form->field($model, 'type') ?>
+
+    <?php // echo $form->field($model, 'status') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

@@ -18,8 +18,8 @@ class projectSearch extends project
     public function rules()
     {
         return [
-            [['project_id'], 'integer'],
-            [['project_name', 'project_date'], 'safe'],
+            [['project_id', 'department_id'], 'integer'],
+            [['name', 'description', 'start_date', 'end_date', 'type', 'status'], 'safe'],
         ];
     }
 
@@ -60,10 +60,15 @@ class projectSearch extends project
         // grid filtering conditions
         $query->andFilterWhere([
             'project_id' => $this->project_id,
-            'project_date' => $this->project_date,
+            'department_id' => $this->department_id,
+            'start_date' => $this->start_date,
+            'end_date' => $this->end_date,
         ]);
 
-        $query->andFilterWhere(['like', 'project_name', $this->project_name]);
+        $query->andFilterWhere(['like', 'name', $this->name])
+            ->andFilterWhere(['like', 'description', $this->description])
+            ->andFilterWhere(['like', 'type', $this->type])
+            ->andFilterWhere(['like', 'status', $this->status]);
 
         return $dataProvider;
     }
