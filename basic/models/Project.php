@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 /**
  * Created by PhpStorm.
  * User: amazi
@@ -8,25 +7,10 @@
  */
 
 namespace app\models;
-use yii\db\ActiveRecord;
-use app\models\Task;
-
-
-class Project extends ActiveRecord
-{
-    public $project_id;
-    public function getTasks()
-    {
-        return $this->hasMany(Task::className(), ['project_id' => 'project_id']);
-    }
-}
-
-?>
-=======
-
-namespace app\models;
 
 use Yii;
+use yii\db\ActiveRecord;
+use app\models\Task;
 
 /**
  * This is the model class for table "project".
@@ -111,4 +95,4 @@ class Project extends \yii\db\ActiveRecord
         return $this->hasMany(WorkingOn::className(), ['project_id' => 'project_id']);
     }
 }
->>>>>>> CRUD added
+?>

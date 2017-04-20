@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 /**
  * Created by PhpStorm.
  * User: amazi
@@ -8,21 +7,10 @@
  */
 
 namespace app\models;
-use yii\db\ActiveRecord;
-use app\models\Project;
-
-
-class Task extends ActiveRecord
-{
-    public $complete;
-    public function  rules(){
-        return[[['complete'],'required']];
-    }
-=======
-
-namespace app\models;
 
 use Yii;
+use yii\db\ActiveRecord;
+use app\models\Project;
 
 /**
  * This is the model class for table "task".
@@ -50,6 +38,7 @@ use Yii;
  * @property Task[] $tasks0
  * @property TaskStatus $status0
  */
+
 class Task extends \yii\db\ActiveRecord
 {
     /**
@@ -112,15 +101,12 @@ class Task extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
->>>>>>> CRUD added for new DB
+
     public function getProject()
     {
         return $this->hasOne(Project::className(), ['project_id' => 'project_id']);
     }
-<<<<<<< HEAD
-}
-?>
-=======
+
 
     /**
      * @return \yii\db\ActiveQuery
@@ -170,4 +156,4 @@ class Task extends \yii\db\ActiveRecord
         return $this->hasOne(TaskStatus::className(), ['task_status_id' => 'status']);
     }
 }
->>>>>>> CRUD added for new DB
+?>

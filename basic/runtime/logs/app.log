@@ -1399,3 +1399,1573 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2017-04-20 20:16:41 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:16:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '38468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708601.055
+    'REQUEST_TIME' => 1492708601
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:17:34 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:17:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '38798'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708654.851
+    'REQUEST_TIME' => 1492708654
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:19:21 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:19:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '39644'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708761.762
+    'REQUEST_TIME' => 1492708761
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:19:22 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:19:22 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '39649'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708762.909
+    'REQUEST_TIME' => 1492708762
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:20:18 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:20:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '40039'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708818.384
+    'REQUEST_TIME' => 1492708818
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:20:19 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:20:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '40052'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708819.488
+    'REQUEST_TIME' => 1492708819
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:20:20 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:20:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '40066'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492708820.437
+    'REQUEST_TIME' => 1492708820
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:28:46 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:28:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '43680'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492709326.518
+    'REQUEST_TIME' => 1492709326
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:28:47 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:28:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '43684'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492709327.827
+    'REQUEST_TIME' => 1492709327
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:30:11 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\debug\panels\UserPanel does not exist' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('yii\\debug\\panel...')
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('yii\\debug\\panel...')
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#3 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(174): yii\BaseYii::createObject(Array)
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2-debug\Module.php(147): yii\debug\Module->initPanels()
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\debug\Module->init()
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(158): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#13 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(309): yii\base\Module->getModule('debug')
+#14 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#15 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(272): yii\web\Application->bootstrap()
+#16 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Object.php(107): yii\base\Application->init()
+#17 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-04-20 20:30:11 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '44241'
+    'REDIRECT_URL' => '/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492709411.326
+    'REQUEST_TIME' => 1492709411
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:55:57 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pa\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\pa\controllers\DefaultController->app\modules\pa\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pa', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:55:57 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55210'
+    'REDIRECT_URL' => '/pa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pa'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492710957.467
+    'REQUEST_TIME' => 1492710957
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:56:02 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pe\controllers\DefaultController.php:39
+Stack trace:
+#0 [internal function]: app\modules\pe\controllers\DefaultController->app\modules\pe\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:56:02 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pm'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55246'
+    'REDIRECT_URL' => '/pe'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492710962.122
+    'REQUEST_TIME' => 1492710962
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:56:03 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\dh\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\dh\controllers\DefaultController->app\modules\dh\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('dh', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:56:03 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55256'
+    'REDIRECT_URL' => '/dh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dh'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492710963.59
+    'REQUEST_TIME' => 1492710963
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:56:06 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pa\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\pa\controllers\DefaultController->app\modules\pa\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pa', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:56:06 [127.0.0.1][3][0eu9hmsmq429qajqb6jh5k8cp0][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0eu9hmsmq429qajqb6jh5k8cp0'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pm'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0eu9hmsmq429qajqb6jh5k8cp0; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55289'
+    'REDIRECT_URL' => '/pa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pa'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492710966.054
+    'REQUEST_TIME' => 1492710966
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:56:32 [127.0.0.1][2][9aqna0ng44rkrk1308v8tbm4f3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "dh/project".' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('dh/project', Array)
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 20:56:32 [127.0.0.1][2][9aqna0ng44rkrk1308v8tbm4f3][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '9aqna0ng44rkrk1308v8tbm4f3'
+    '_identity' => '5b080c74688846543bd886829e1cf3557ff0fbd607c1245d41397e42b0fcd55aa:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[2,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=9aqna0ng44rkrk1308v8tbm4f3; _identity=5b080c74688846543bd886829e1cf3557ff0fbd607c1245d41397e42b0fcd55aa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55468'
+    'REDIRECT_URL' => '/dh/project'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dh/project'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492710992.204
+    'REQUEST_TIME' => 1492710992
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:56:49 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pm/project".' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pm/project', Array)
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 20:56:49 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55596'
+    'REDIRECT_URL' => '/pm/project'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pm/project'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711009.651
+    'REQUEST_TIME' => 1492711009
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:56:59 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pa\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\pa\controllers\DefaultController->app\modules\pa\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pa', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:56:59 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pa/project'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55692'
+    'REDIRECT_URL' => '/pa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pa'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711019.818
+    'REQUEST_TIME' => 1492711019
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:57:13 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pa\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\pa\controllers\DefaultController->app\modules\pa\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pa', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:57:13 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55790'
+    'REDIRECT_URL' => '/pa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pa'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711032.988
+    'REQUEST_TIME' => 1492711032
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:57:14 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pa\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\pa\controllers\DefaultController->app\modules\pa\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pa', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:57:14 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pa'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55805'
+    'REDIRECT_URL' => '/pa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pa'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711034.847
+    'REQUEST_TIME' => 1492711034
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:57:16 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\dh\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\dh\controllers\DefaultController->app\modules\dh\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('dh', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:57:16 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pa'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55829'
+    'REDIRECT_URL' => '/dh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dh'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711036.528
+    'REQUEST_TIME' => 1492711036
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:57:17 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pe\controllers\DefaultController.php:39
+Stack trace:
+#0 [internal function]: app\modules\pe\controllers\DefaultController->app\modules\pe\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:57:17 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/dh'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55843'
+    'REDIRECT_URL' => '/pe'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711037.662
+    'REQUEST_TIME' => 1492711037
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 20:57:19 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\modules\pa\controllers\DefaultController.php:32
+Stack trace:
+#0 [internal function]: app\modules\pa\controllers\DefaultController->app\modules\pa\controllers\{closure}(NULL, Object(yii\base\InlineAction))
+#1 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\filters\AccessControl.php(132): call_user_func(Object(Closure), NULL, Object(yii\base\InlineAction))
+#2 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#9 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pa', Array)
+#10 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\Server\OpenServer\domains\localhost\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-20 20:57:18 [127.0.0.1][3][0lq160v18323bvgm7rs7nf1u23][info][application] $_COOKIE = [
+    '_csrf' => 'bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY\";}'
+    'PHPSESSID' => '0lq160v18323bvgm7rs7nf1u23'
+    '_identity' => '6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[3,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'micpro.ru'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://micpro.ru/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bb6ad2cf4ef8a2641436c66e37f08d2bc40403f4857839d83ac9e2c2ee54de64a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JS5RmLvW_EK-d8rNw_pknzZgoH2v7qnY%22%3B%7D; PHPSESSID=0lq160v18323bvgm7rs7nf1u23; _identity=6324d70853a2860ad4b9bcbbe23a124f0bc63e48f61c9239aae44ecbac9c24c8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B3%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => 'f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\ext;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;f:\\server\\openserver\\modules\\php\\PHP-5.5-x64;f:\\server\\openserver\\modules\\imagemagick;f:\\server\\openserver\\modules\\wget\\bin;f:\\server\\openserver\\modules\\git;f:\\server\\openserver\\modules\\git\\bin;f:\\server\\openserver\\modules\\git\\mingw\\bin;f:\\server\\openserver\\modules\\git\\cmd;f:\\server\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;f:\\server\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;f:\\server\\openserver\\modules\\memcached\\Memcached-1.4;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10\\bin;f:\\server\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.10;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'micpro.ru'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/Server/OpenServer/domains/localhost/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '55863'
+    'REDIRECT_URL' => '/pa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pa'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492711038.919
+    'REQUEST_TIME' => 1492711038
+    'argv' => []
+    'argc' => 0
+]
