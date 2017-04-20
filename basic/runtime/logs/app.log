@@ -333,3 +333,1069 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2017-04-20 19:34:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:10 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'VWJKRHBDaV85MD4XKC4NGiwjPy4pKiYoLRoICBYJChITK3wLRRYeJQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30949'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/site/ispolnitel?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706050.52
+    'REQUEST_TIME' => 1492706050
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:34:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30949'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/ispolnitel'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706050.585
+    'REQUEST_TIME' => 1492706050
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:34:14 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:14 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'VWJKRHBDaV85MD4XKC4NGiwjPy4pKiYoLRoICBYJChITK3wLRRYeJQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30950'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/site/ispolnitel?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706054.659
+    'REQUEST_TIME' => 1492706054
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:34:14 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30950'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/ispolnitel'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706054.715
+    'REQUEST_TIME' => 1492706054
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:34:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30950'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/ispolnitel'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706063.291
+    'REQUEST_TIME' => 1492706063
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:34:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:39 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'enhwcVRPaWcWKgQiDCINIgM5BRsNJiYQAgAyPTIFCio8MUY.YRoeHQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30950'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/site/ispolnitel?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706079.885
+    'REQUEST_TIME' => 1492706079
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:34:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/ispolnitel".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/ispolni...', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:34:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30950'
+    'REDIRECT_URL' => '/pe/site/ispolnitel'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/ispolnitel'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706079.943
+    'REQUEST_TIME' => 1492706079
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:35:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/index".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/index', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:35:42 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'VVFrLXJMSEE5Ax9.KiEsBCwQHkcrJQc2LSkpYRQGKwwTGF1iRxk/Ow=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30978'
+    'REDIRECT_URL' => '/pe/site/index'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/site/index?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706142.017
+    'REQUEST_TIME' => 1492706142
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:35:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/index".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/index', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:35:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30978'
+    'REDIRECT_URL' => '/pe/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706142.081
+    'REQUEST_TIME' => 1492706142
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:35:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/index".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/index', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:35:49 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'UXNXZ3RmRUU9ISM0LAshACgyIg0tDwoyKQsVKxIsJggXOmEoQTMyPw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30978'
+    'REDIRECT_URL' => '/pe/site/index'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/site/index?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706149.056
+    'REQUEST_TIME' => 1492706149
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:35:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/index".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/index', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:35:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30978'
+    'REDIRECT_URL' => '/pe/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706149.134
+    'REQUEST_TIME' => 1492706149
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:36:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/site/index".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/site/index', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:36:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30984'
+    'REDIRECT_URL' => '/pe/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706160.237
+    'REQUEST_TIME' => 1492706160
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:36:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/mp/pe".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/mp/pe', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:36:03 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'T2xiR2c4OTUjPhYUP1VdcDYtFy0.UXZCNxQgCwFyWngJJVQIUm1OTw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30984'
+    'REDIRECT_URL' => '/pe/mp/pe'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/mp/pe?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706163.226
+    'REQUEST_TIME' => 1492706163
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:36:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/mp/pe".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/mp/pe', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:36:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30984'
+    'REDIRECT_URL' => '/pe/mp/pe'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/mp/pe'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706163.289
+    'REQUEST_TIME' => 1492706163
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:36:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/mp/pe".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/mp/pe', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:36:07 [127.0.0.1][-][-][info][application] $_GET = [
+    '_pjax' => '#p0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'T2xiR2c4OTUjPhYUP1VdcDYtFy0.UXZCNxQgCwFyWngJJVQIUm1OTw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30984'
+    'REDIRECT_URL' => '/pe/mp/pe'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23p0'
+    'REQUEST_URI' => '/pe/mp/pe?_pjax=%23p0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706167.681
+    'REQUEST_TIME' => 1492706167
+    'argv' => [
+        0 => '_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2017-04-20 19:36:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/mp/pe".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/mp/pe', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:36:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30984'
+    'REDIRECT_URL' => '/pe/mp/pe'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/mp/pe'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706167.738
+    'REQUEST_TIME' => 1492706167
+    'argv' => []
+    'argc' => 0
+]
+2017-04-20 19:36:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "pe/mp/pe".' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('pe/mp/pe', Array)
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Programs\OpenServer\OpenServer\domains\MicPro.ru\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-20 19:36:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'mp'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://mp/pe'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=ffadfdeacee6595602f7b17d8fad9af20d3bb11d888e7ab1bb41d5af6528f6caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lRtSXmdEyAujYiOwxxBLfJcMFI6O5Uwz%22%3B%7D'
+    'PATH' => 'e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\ext;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;e:\\programs\\openserver\\openserver\\modules\\php\\PHP-5.5-x64;e:\\programs\\openserver\\openserver\\modules\\imagemagick;e:\\programs\\openserver\\openserver\\modules\\wget\\bin;e:\\programs\\openserver\\openserver\\modules\\git;e:\\programs\\openserver\\openserver\\modules\\git\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\mingw\\bin;e:\\programs\\openserver\\openserver\\modules\\git\\cmd;e:\\programs\\openserver\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64\\bin;e:\\programs\\openserver\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'mp'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Programs/OpenServer/OpenServer/domains/MicPro.ru/basic/web/index.php'
+    'REMOTE_PORT' => '30984'
+    'REDIRECT_URL' => '/pe/mp/pe'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pe/mp/pe'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1492706168.956
+    'REQUEST_TIME' => 1492706168
+    'argv' => []
+    'argc' => 0
+]
