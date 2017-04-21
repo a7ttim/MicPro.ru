@@ -1,6 +1,6 @@
 <div class="dh-default-index">
     <h1>Department head</h1>
-    <h2><?= $this->context->action->uniqueId ?></h2>
+    <!--<h2><?= $this->context->action->uniqueId ?></h2>
     <p>
         This is the view content for action "<?= $this->context->action->id ?>".
         The action belongs to the controller "<?= get_class($this->context) ?>"
@@ -9,5 +9,9 @@
     <p>
         You may customize this page by editing the following file:<br>
         <code><?= __FILE__ ?></code>
-    </p>
+    </p>-->
+    <h2>Список ресурсов</h2>
+    <?php foreach ($res as $u) { ?>
+        <p><?=$u->user->name?>, <?=$u->department->department_name?></p>
+    <?}?>
 </div>

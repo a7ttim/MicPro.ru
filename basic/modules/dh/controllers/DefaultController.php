@@ -50,6 +50,14 @@ class DefaultController extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+        $res = Employment::find()->joinWith('department', User::find()->joinWith('employment', 'user'))->
+        orderBy([
+            'parent_department_id' => SORT_ASC,
+            'department_id' => SORT_ASC
+        ])->all();
+        
+        return $this->render('index', [
+            'res' => $res
+        ]);
     }
 }
